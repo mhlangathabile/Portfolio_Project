@@ -1,7 +1,27 @@
 body {
-  background-color: black;
+  text-align: center;
+  padding: 180px 0;
+  background: #161616;
+  color: #fbf7f7;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: "Catamaran", sans-serif;
 }
 
 h1 {
-  color: white;
+  font-size: 100px;
+  font-family: "Titan One", sans-serif;
+}
+
+h5 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact {
+  font-family: "Catamaran", sans-serif;
+  line-height: 40px;
+  font-size: 40px;
+  padding: 18px 26px;
 }
