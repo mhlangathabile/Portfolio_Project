@@ -7,7 +7,7 @@
   --tertiary-font: "Anton", sans-serif;
 }
 
-body {
+.content {
   text-align: center;
   padding: 180px 0;
   background: var(--primary-color);
@@ -42,12 +42,19 @@ h5 {
 p {
   font-size: 15px;
   font-family: var(--primary-font);
+  text-align: center;
 }
 
 h2 {
   font-size: 60px;
   font-family: var(--primary-font);
   font-weight: bold;
+  text-align: center;
+}
+
+.headline {
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 @media (max-width: 900px) {
