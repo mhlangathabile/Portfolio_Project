@@ -74,3 +74,39 @@ h2 {
     font-size: 18px;
   }
 }
+
+.Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.introduction {
+  font-size: 50px;
+  text-align: center;
+}
+
+.aboutme {
+  padding: 150px;
+}
+
+.aboutme p {
+  font-size: 19px;
+}
+
+.about {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+span {
+  color: var(--tertiary-color);
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
