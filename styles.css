@@ -96,7 +96,8 @@ h2 {
   font-size: 19px;
 }
 
-.about {
+.about,
+.connect {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
@@ -109,4 +110,22 @@ span {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.connect h5 {
+  line-height: 3;
+  font-size: 30px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.connect a {
+  color: #eac100;
+  text-decoration: none;
+}
+
+.connecting {
+  color: #eac100;
 }
