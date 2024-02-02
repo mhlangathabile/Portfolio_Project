@@ -155,5 +155,17 @@ span {
 }
 
 .Weatherimage {
-  width: 80px;
+  max-height: 80vh;
+}
+
+.Interiorimage {
+  max-height: 80vh;
+}
+
+.Weather {
+  max-height: 80vh;
+}
+
+.Interior {
+  max-height: 80vh;
 }
