@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Thabile is a front-end engineer based in South Africa."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,12 +29,14 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Catamaran:wght@300&family=Lobster&family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-    <title>PORTFOLIO_PROJECT</title>
+    <title>Front-end Developer Thabile Mhlanga</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid active">
-        <a class="navbar-brand" href="/index.html">HOME</a>
+      <div class="container-fluid">
+        <a class="navbar-brand active" href="/index.html" title="Homepage"
+          >HOME</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -45,15 +51,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/about.html"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/about.html"
+                title="About Thabile"
                 >ABOUT</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">WORK</a>
+              <a class="nav-link" href="/work.html" title="Work Page of Thabile"
+                >WORK</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">CONTACT</a>
+              <a class="nav-link" href="/contact.html" title="Contact Page"
+                >CONTACT</a
+              >
             </li>
           </ul>
         </div>
@@ -79,8 +93,8 @@
     <p class="headline">Crafting Stories, One Project at a Time.</p>
     <div class="container">
       <div class="row">
-        <div class="col d-none d-lg-block">
-          <img src="" alt="Interior-Design" />
+        <div class="col d-none d-lg-block Interior">
+          <img src="/images/Interior Design.png" alt="Interior-Design" />
         </div>
         <div class="col">
           <h2>Interior Designing</h2>
@@ -115,9 +129,6 @@
             my first Weather Project and see the weather like never before!
           </p>
         </div>
-        <div class="col d-none d-lg-block">
-          <img src="" alt="Weather-App" />
-        </div>
         <div class="contact">
           <a
             href="https://www.shecodes.io/cohorts/shecodes-plus-57f051a5-78dc-4df8-a916-3e946696c114/projects/1930772"
@@ -126,13 +137,25 @@
             >Step Inside</a
           >
         </div>
+        <div class="col d-none d-lg-block Weather">
+          <img src="/images/Weather-App.png" alt="Weather-App" />
+        </div>
       </div>
     </div>
     <div class="footer">
       <footer>
-        <a href="mailto:mhlangathabile27@gmail.com"
+        <a href="mailto:mhlangathabile27@gmail.com" title="email"
           >mhlangathabile27@gmail.com</a
         >
+        <p class="mt-5">
+          This code was coded by Thabile P Mhlanga, and it is
+          <a
+            href="https://github.com/mhlangathabile/Portfolio_Project"
+            title="Git-Hub"
+            target="_blank"
+            >open-sourced.</a
+          >
+        </p>
       </footer>
     </div>
   </body>

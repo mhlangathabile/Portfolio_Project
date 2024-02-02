@@ -151,5 +151,9 @@ span {
   font-size: 80px;
   margin-top: 60px;
   color: var(--links-color);
-  margin-left: 50px;
+  margin-left: 40px;
+}
+
+.Weatherimage {
+  width: 80px;
 }
