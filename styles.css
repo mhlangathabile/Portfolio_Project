@@ -5,6 +5,7 @@
   --primary-font: "Catamaran", sans-serif;
   --secondary-font: "Titan One", sans-serif;
   --tertiary-font: "Anton", sans-serif;
+  --links-color: #eac100;
 }
 
 .content {
@@ -122,10 +123,33 @@ span {
 }
 
 .connect a {
-  color: #eac100;
+  color: var(--links-color);
   text-decoration: none;
 }
 
 .connecting {
-  color: #eac100;
+  color: var(--links-color);
+}
+
+.footer {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+}
+
+.footer a:hover {
+  color: var(--links-color);
+}
+
+.skills {
+  font-size: 80px;
+  margin-top: 60px;
+  color: var(--links-color);
+  margin-left: 50px;
 }
