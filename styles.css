@@ -27,6 +27,9 @@ h1 {
 
 h5 {
   font-family: var(--tertiary-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact {
@@ -34,6 +37,9 @@ h5 {
   line-height: 40px;
   font-size: 40px;
   padding: 18px 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .homepage {
