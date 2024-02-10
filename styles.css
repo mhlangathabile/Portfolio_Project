@@ -175,3 +175,9 @@ span {
 .Interior {
   max-height: 80vh;
 }
+
+@media (max-width: 576px) {
+  footer {
+    font-size: 14px;
+  }
+}
