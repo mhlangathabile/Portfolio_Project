@@ -176,6 +176,11 @@ span {
   max-height: 80vh;
 }
 
+.Carrot {
+  max-height: 40vh;
+  border: 5px solid #f26000;
+}
+
 @media (max-width: 576px) {
   footer {
     font-size: 14px;
