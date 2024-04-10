@@ -181,6 +181,10 @@ span {
   border: 5px solid #f26000;
 }
 
+.Melsoft {
+  max-height: 40vh;
+}
+
 @media (max-width: 576px) {
   footer {
     font-size: 14px;
